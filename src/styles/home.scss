@@ -1,0 +1,29 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem;
+
+  > p {
+    margin: 10px;
+    font-size: 18px;
+  }
+
+  > p > a {
+      color: #e55170 !important;
+  }
+}

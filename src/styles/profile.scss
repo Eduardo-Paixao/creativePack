@@ -1,0 +1,37 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+
+  strong > p {
+    color: #969cac;
+  }
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: auto;
+  max-height: 25rem;
+}
+
+.table tbody td {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  a {
+    text-decoration: none !important;
+  }
+}
+.table thead th {
+  background-color: #313130;
+  color: #efefef;
+}
+
+.form-select:focus {
+  border-color: #e55170 !important;
+  box-shadow: 0 0 0 0.25rem #e5517171 !important;
+}
