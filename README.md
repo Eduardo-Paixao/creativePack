@@ -1,5 +1,4 @@
-# TESTE FRONTEND COMPASSO
-
+# TESTE FRONTEND CREATIVE PACK
 ## Project setup
 ```
 Orientações para executar o projeto:
